@@ -5,11 +5,12 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
 
 ### 📌 Cara Install & Menjalankan
 1. Buka folder project
-    cd mini project
-2. Buat virtual environment
+   ```bash
+    cd mini-project-FastAPI
+3. Buat virtual environment
    ```bash
     python -m venv venv
-3. Aktifkan virtual environment
+4. Aktifkan virtual environment
 
    Windows:
    ```bash
@@ -18,13 +19,13 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
    Mac/Linux:
    ```bash
    source venv/bin/activate
-4. Install dependency
+5. Install dependency
    ```bash
     pip install fastapi uvicorn google-generativeai pydantic
-5. Jalankan server
+6. Jalankan server
    ```bash
     uvicorn app:app --reload
-6. Test API
+7. Test API
     Buka browser: http://127.0.0.1:8000/docs
     Klik tombol POST /recommend → Try it out → isi body request, contoh:
         "gender": "female",
@@ -36,6 +37,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
     }
 
 ### 📂 Struktur File
+
 
 
 
