@@ -3,7 +3,7 @@
 </h1>
 
 ### 🎯 Deskripsi
-Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen spesialis berdasarkan informasi pasien (gender, usia, dan gejala). Service ini menggunakan Google Gemini (Generative AI) untuk membaca input dan mengembalikan rekomendasi.
+Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen spesialis berdasarkan informasi gender, usia, dan gejala pasien. 
 
 ### 📌 Cara Install & Menjalankan
 1. Buka folder project
@@ -44,4 +44,5 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
       {
         "recommended_department": "Neurologi"
       }
+
 
