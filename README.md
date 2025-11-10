@@ -2,13 +2,11 @@
   🏥 Mini Project – FastAPI APP
 </h1>
 
-<div style="display:flex; justify-content:center;">
-  <a href="https://github.com/netaniaIndi/mini-project-FastAPI" target="_blank" style="font-size:14px;">
+<p style="text-align:center; font-size:14px;">
+  <a href="https://github.com/netaniaIndi/mini-project-FastAPI" target="_blank">
     GitHub Repository
   </a>
-</div>
-
-
+</p>
 
 ### 🎯 Deskripsi
 Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen spesialis berdasarkan informasi gender, usia, dan gejala pasien.
