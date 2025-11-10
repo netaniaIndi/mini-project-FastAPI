@@ -1,10 +1,12 @@
 <div style="text-align:center;">
   <h1>🏥 Mini Project – FastAPI APP</h1>
 
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="70">
-  <a href="https://github.com/netaniaIndi/mini-project-FastAPI" target="_blank">
-    GitHub Repository
-  </a>
+  <div style="display:flex; justify-content:center; align-items:center; gap:10px;">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60">
+    <a href="https://github.com/netaniaIndi/mini-project-FastAPI" target="_blank">
+      GitHub Repository
+    </a>
+  </div>
 </div>
 
 
@@ -72,6 +74,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
         "recommended_department": "Neurologi"
       }
     <img width="892" height="772" alt="image" src="https://github.com/user-attachments/assets/a437b67a-aacd-4d62-81c7-426d8ed3d759" />
+
 
 
 
