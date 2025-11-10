@@ -64,12 +64,13 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
         "symptoms": ["pusing", "mual", "sulit berjalan"]
      }
    - Klik Send
-   - Jika berhasil akan menampilkan response, contoh:
+   - Jika berhasil akan menampilkan response, seperti contoh gambar ini:
      ```bash
       {
         "recommended_department": "Neurologi"
       }
-    <img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/a437b67a-aacd-4d62-81c7-426d8ed3d759" />
+    <img width="892" height="772" alt="image" src="https://github.com/user-attachments/assets/a437b67a-aacd-4d62-81c7-426d8ed3d759" />
+
 
 
 
