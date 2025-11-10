@@ -1,4 +1,6 @@
+<h1 align="center">
 ### 🏥 Mini Project – FastAPI APP
+</h1>
 
 ### 🎯 Deskripsi
 Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen spesialis berdasarkan informasi pasien (gender, usia, dan gejala). Service ini menggunakan Google Gemini (Generative AI) untuk membaca input dan mengembalikan rekomendasi.
@@ -44,6 +46,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
       }
 
 ### 📂 Struktur File
+
 
 
 
