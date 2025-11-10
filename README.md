@@ -1,9 +1,9 @@
-🏥 Mini Project – FastAPI APP
+### 🏥 Mini Project – FastAPI APP
 
-🎯 Deskripsi
+### 🎯 Deskripsi
 Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen spesialis berdasarkan informasi pasien (gender, usia, dan gejala). Service ini menggunakan Google Gemini (Generative AI) untuk membaca input dan mengembalikan rekomendasi.
 
-📌 Cara Install & Menjalankan
+### 📌 Cara Install & Menjalankan
 1. Buka folder project
     cd mini project
 2. Buat virtual environment
@@ -29,7 +29,8 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
         "recommended_department": "Neurologi"
     }
 
-📂 Struktur File
+### 📂 Struktur File
+
 
 
 
