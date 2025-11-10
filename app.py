@@ -5,7 +5,7 @@ from google import genai
 
 GOOGLE_API_KEY = "AIzaSyC5B_OKl3CcsXTUZygZNLIdioHyzOfAR78"
 
-# Konfigurasi client Gemini
+# Konfigurasi Gemini
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
 app = FastAPI()
@@ -28,7 +28,7 @@ async def recommend_department(info: PatientInfo):
         )
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",   # ✅ Model resmi terbaru
+            model="gemini-2.5-flash",
             contents=prompt
         )
 
