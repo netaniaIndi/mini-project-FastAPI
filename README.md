@@ -10,6 +10,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
    ```bash
     python -m venv venv
 3. Aktifkan virtual environment
+
    Windows:
    ```bash
     venv\Scripts\activate
@@ -38,6 +39,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
     }
 
 ### 📂 Struktur File
+
 
 
 
