@@ -1,9 +1,11 @@
 <h1 align="center">
 🏥 Mini Project – FastAPI APP
-   <a href="https://usestrix.com/](https://github.com/netaniaIndi/mini-project-FastAPI">
+</h1>
+<p align="center">
+  <a href="https://usestrix.com/](https://github.com/netaniaIndi/mini-project-FastAPI">
     <img src=".github/logo.png" width="150" alt="">
   </a>
-</h1>
+</p>
 
 ### 🎯 Deskripsi
 Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen spesialis berdasarkan informasi gender, usia, dan gejala pasien.
@@ -69,5 +71,6 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
         "recommended_department": "Neurologi"
       }
     <img width="892" height="772" alt="image" src="https://github.com/user-attachments/assets/a437b67a-aacd-4d62-81c7-426d8ed3d759" />
+
 
 
