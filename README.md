@@ -7,18 +7,21 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
 1. Buka folder project
     cd mini project
 2. Buat virtual environment
+   ```bash
     python -m venv venv
-3. Aktifkan virtual environment
+4. Aktifkan virtual environment
     Windows: venv\Scripts\activate
     Mac/Linux: source venv/bin/activate
-4. Install dependency
+5. Install dependency
+   ```bash
     pip install fastapi uvicorn google-generativeai pydantic
-5. Tambahkan API Key Gemini
+7. Tambahkan API Key Gemini
     Edit file app.py dan isi:
     GOOGLE_API_KEY = "ISI_API_KEY_ANDA"
-6. Jalankan server
+8. Jalankan server
+   ```bash
     uvicorn app:app --reload
-7. Test API
+10. Test API
     Buka browser: http://127.0.0.1:8000/docs
     Klik tombol POST /recommend → Try it out → isi body request, contoh:
         "gender": "female",
@@ -30,6 +33,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
     }
 
 ### 📂 Struktur File
+
 
 
 
