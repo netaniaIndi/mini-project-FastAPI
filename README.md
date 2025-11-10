@@ -28,8 +28,8 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
 5. Install dependency
    ```bash
     pip install fastapi uvicorn google-generativeai pydantic
-   pip install google-genai
-   pip install -r requirements.txt
+    pip install google-genai
+    pip install -r requirements.txt
 6. Jalankan server FastAPI
    ```bash
     uvicorn app:app --reload
@@ -72,6 +72,7 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
         "recommended_department": "Neurologi"
       }
     <img width="892" height="772" alt="image" src="https://github.com/user-attachments/assets/a437b67a-aacd-4d62-81c7-426d8ed3d759" />
+
 
 
 
