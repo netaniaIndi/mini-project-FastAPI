@@ -26,17 +26,25 @@ Project ini adalah layanan FastAPI sederhana yang merekomendasikan departemen sp
    ```bash
     uvicorn app:app --reload
 7. Test API
-    Buka browser: http://127.0.0.1:8000/docs
-    Klik tombol POST /recommend → Try it out → isi body request, contoh:
-        "gender": "female",
+   
+    - Buka browser:
+      ```bash
+      http://127.0.0.1:8000/docs
+    - Klik tombol POST /recommend → Try it out → isi body request, contoh:
+      ```bash
+      {
+       "gender": "female",
         "age": 62,
         "symptoms": ["pusing", "mual", "sulit berjalan"]
-    Jika berhasil akan menampilkan response, contoh:
-    {
+      }
+    - Jika berhasil akan menampilkan response, contoh:
+      ```bash
+      {
         "recommended_department": "Neurologi"
-    }
+      }
 
 ### 📂 Struktur File
+
 
 
 
